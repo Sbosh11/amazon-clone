@@ -1,0 +1,164 @@
+.header {
+height:60px;
+width:100%;
+background: #131A22;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-nav  {
+display: flex;
+background: #131A22;
+padding: 0 20px;
+
+}
+
+.top-nav a {
+display: flex;
+flex-direction: column;
+justify-content:center;
+}
+.nav-logo {
+display:flex;
+justify-content: center;
+flex-direction: column;
+background: url('https://ik.imagekit.io/a550fxxzq1l/home_pg/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png?updatedAt=1638880732855') 
+no-repeat -10px -51px;
+	width: 96px;
+	height: 29px;
+}
+.border-h {
+    margin: 5px;
+    padding: 5px;
+}
+
+.border-h:hover {
+border: 1px solid #fff;
+  
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2.5px;
+}
+#del-country {
+display:flex;
+justify-content: center;
+
+}
+
+#pin-icon {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+background: url('https://ik.imagekit.io/a550fxxzq1l/home_pg/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png?updatedAt=1638880732855') no-repeat -71px -340px;
+	width: 17px;
+	height: 21px !important;
+    
+}
+
+#del-country .wrapper span:first-child {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+#del-country .wrapper span:last-child {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.logo {
+    margin: 10px auto 0 auto;
+    display: block;
+}
+
+
+/** Menu***/
+#searchDropdownBox {
+    width: 52px;
+    height: 40px;
+    background: #dadada;
+    border-color: #dadada;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+}
+option { 
+    /* Whatever color  you want */
+    background: #fff;
+}
+
+#wrapper-search {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    padding:0;
+}
+.wrapper-search  {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+input {
+    width:614px;
+    height:40px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: -internal-light-dark(#f90);
+    background-color: -internal-light-dark (#f90);
+}
+input:focus {
+border: #f90 2px solid;
+    padding: 0px;
+    margin:0;
+}
+.search-icon {
+    background: url('https://ik.imagekit.io/a550fxxzq1l/home_pg/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png?updatedAt=1638880732855') no-repeat -10px -290px;
+	width: 21px;
+	height: 21px;
+    align-self: center;
+}
+.outer-search {
+    padding: 0 20px;
+    height: 40px;
+    background: #febd69;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    border-radius: 0 5px 5px 0;
+}
+
+span.arrow-down {
+   font-size: 8px !important;
+}
+.wrapper, .wrapper-cut {
+    display: flex;
+    justify-content: center;
+    padding: 0 2.5px;
+}
+
+#cart-icon {
+    background: url('https://ik.imagekit.io/a550fxxzq1l/home_pg/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png?updatedAt=1638880732855') no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+    height: 30px !important;
+}
+#cart-no {
+    color:#f08804 !important;
+    font-size:16px !important;
+    font-weight:bold !important;
+    position: relative;
+    margin-left: -25px;
+}
+
+
+
