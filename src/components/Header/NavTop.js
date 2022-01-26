@@ -1,8 +1,9 @@
 import React from 'react';
 import './NavTop.css';
+
 //import logo from '../logo-new.jpg';
 
-function Header() {
+function TopNav() {
     return (
         <div className="header">
             <div className="top-nav">
@@ -99,9 +100,10 @@ function Header() {
            </div>
             </div>
             </div>
-
+           
+            
         </div>
     )
 }
 
-export default Header
+export default TopNav;

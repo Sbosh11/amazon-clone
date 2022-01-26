@@ -1,11 +1,15 @@
 import './App.css';
-import Header from './components/Header/NavTop'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import TopNav from './components/Header/NavTop';
+import BottomNav from './components/Header/NavBottom';
 
 function App() {
   return (
+    <Router>
     <div className="app">
     
-      <Header/>
+      <TopNav/>
+      <BottomNav/>
   
 
         {/* Header */}
@@ -13,6 +17,7 @@ function App() {
         
      
     </div>
+    </Router>
   );
 }
 

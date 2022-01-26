@@ -5,6 +5,19 @@ margin: 0;
 .app {
   text-align:left;
 }
+
+ul {
+  list-style: none;
+}
+.border-h {
+    margin: 5px;
+    padding: 5px;
+}
+
+.border-h:hover {
+border: 1px solid #fff;
+  
+}
 /*
 .App-logo {
   height: 40vmin;

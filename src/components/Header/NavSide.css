@@ -1,0 +1,25 @@
+
+
+/*#pin-icon {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+background: url('https://ik.imagekit.io/a550fxxzq1l/home_pg/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png?updatedAt=1638880732855') no-repeat -71px -340px;
+	width: 17px;
+	height: 21px !important;
+    
+}*/
+
+#icon-hamburger {
+	background: url('https://ik.imagekit.io/a550fxxzq1l/home_pg/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png?updatedAt=1638880732855') no-repeat -172px -255px;
+	width: 18px;
+	height: 14px;
+}
+.list-subheader {
+   padding: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #111;
+    text-transform: capitalize;
+}
